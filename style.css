@@ -1,0 +1,56 @@
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#7aa7ff,#7fe3d5);
+text-align:center;
+}
+
+h1{
+color:white;
+margin-top:20px;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.form-box,.event-box{
+background:white;
+padding:20px;
+border-radius:10px;
+width:250px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input,select,textarea{
+width:100%;
+margin:8px 0;
+padding:8px;
+}
+
+button{
+background:#6a5acd;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+cursor:pointer;
+}
+
+.event-card{
+background:#f3f3f3;
+padding:10px;
+margin:10px 0;
+border-radius:8px;
+position:relative;
+}
+
+.delete{
+position:absolute;
+right:10px;
+top:5px;
+cursor:pointer;
+color:red;
+}
